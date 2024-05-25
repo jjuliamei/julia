@@ -15,7 +15,7 @@ body{
 nav{
 	flex: 1;
 	text-align: right;
-	trasition: transform 0.5s;
+	transition: transform 0.5s;
 }
 nav ul{
 	display: inline-block;
@@ -30,7 +30,7 @@ a{
 	color: white;
 }
 p{
-	 color: black;
+	 color: #e305ad;
 }
 .container{
 	max-width: 1300px;
@@ -120,11 +120,17 @@ p{
 	left: 50%;
 	transform: translateX(-50%);
 }
+h1{
+	color: #f039b1;
+}
+h2{
+	color: #ee71c3;
+}
 h4{
 	color: #555;
 	font-weight: normal;
 }
-{
+p{
 	font-size: 14px;
 }
 .col-4:hover{
@@ -137,8 +143,12 @@ h4{
 	margin: 100px auto 50px;
 }
 select{
-	border: 1px solid #5555;
+	color: #e305ad;
+	border: 1px solid #e305ad;
 	padding: 5px;
+option{
+color: #e305ad;
+}
 }
 select:focus{
 	outline: none;
@@ -165,7 +175,7 @@ select:focus{
 	padding-left: 10px;
 	font-size: 20px;
 	margin-right: 10px;
-	border: 1px solid #739072;
+	border: 1px solid #e305ad;
 }
 input:focus{
 	outline: none;
@@ -207,7 +217,7 @@ td input{
 	padding: 5px;
 }
 td a{
-	color: white;
+	color: #e305ad;
 	font-size: 12px;
 }
 td img{
@@ -248,7 +258,7 @@ th:last-child{
 }
 
 .checkout-button:hover {
-  background-color:#e305ad;
+  background-color: #f29ad8;
 }
 
 /*-------------account-page---------*/
@@ -270,7 +280,7 @@ th:last-child{
 .form-container span{
 	font-weight: bold;
 	padding: 0 10px;
-	color: black;
+	color: #e305ad;
 	cursor: pointer;
 	width: 100px;
 	display: inline-block;
@@ -290,7 +300,7 @@ form input{
 	height: 30px;
 	margin: 10px 0;
 	padding: 0 10px;
-	border: 1px solid black;
+	border: 1px solid #e305ad;
 }
 form .btn{
 	width: 100%;
@@ -313,7 +323,7 @@ form a{
 #Indicator{
 	width: 100px;
 	border: none;
-	background:black;
+	background: #f658b8;
 	height: 3px;
 	margin-top: 8px;
 	transform: translateX(100px);
