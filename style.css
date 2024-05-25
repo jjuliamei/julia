@@ -107,7 +107,7 @@ p{
 	margin: 0 auto 80px;
 	position: relative;
 	line-height: 60px;
-	color: #555;
+	color: #ee71c3;
 }
 .title::after{
 	content: '';
@@ -127,8 +127,11 @@ h2{
 	color: #ee71c3;
 }
 h4{
-	color: #555;
+	color: #ee71c3;
 	font-weight: normal;
+}
+h3{
+	color: #f658b8;
 }
 p{
 	font-size: 14px;
